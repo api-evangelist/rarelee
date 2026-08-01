@@ -1,7 +1,24 @@
 aid: rarelee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rarelee.png
 name: RareLee
-description: RareLee is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: RareLee (Rarelee) is a Seoul-based premium personal style consulting company founded in
+  2017, offering data-driven hair, makeup, and fashion analysis. Its consultants classify a client's
+  face shape, features, and skeletal structure across millions of type combinations to recommend
+  personalized hairstyles, makeup designs, and coordinated outfits, both online and in person. Rarelee
+  serves celebrity clientele and has collaborated with brands such as Shinsegae and Marriott. It is a
+  direct-to-consumer service with no public API, developer portal, or technical integration surface; it
+  was added to the API Evangelist network as a 500 Global portfolio lead for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/rarelee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Style Consulting
+- Fashion
+- Beauty
+- Personalization
+- Consumer Services
+- South Korea
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/rarelee-domain-security.yml
 - type: Website
   url: https://rarelee.co.kr
